@@ -7,18 +7,6 @@
 
 import SwiftUI
 
-//struct ContentView: View {
-//    var body: some View {
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.mint)
-//            Text("Hello, world!")
-//        }
-//        .padding()
-//    }
-//}
-
 struct ContentView:View {
     @State private var tasks:[String]=[]
     @State private var name=""
